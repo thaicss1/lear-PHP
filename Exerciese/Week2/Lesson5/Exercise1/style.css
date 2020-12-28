@@ -1,0 +1,119 @@
+
+.left{
+	float: left;
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+.header{
+	font-family: 'Lora', serif;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("header.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: cover;
+	margin: auto;
+	height: 600px;
+	object-fit: cover;
+	background-position: center;
+}
+.header ul{
+	position: absolute;
+	right: 0;
+	transform: translateY(-50);
+	list-style-type: none;
+	padding-right: inherit;
+	width: 100%;
+    margin: 0;
+    text-align: end;
+    padding: 20px;
+}
+.header a{
+	color: blue;
+	display: inline;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+}
+.active {
+	border: 2px solid white;
+	border-radius: 100px;
+}
+.active:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.header p,h1{
+	color: white;
+    position: relative;
+    top: 215px;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+}
+.header h1{
+	font-size: 57px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+	background-color: rgb(54, 179, 168);
+    color: white;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    border-radius: 100px;
+    border: 0;
+    font-size: 16px;
+    padding: 10px;
+}
+button:hover{
+	opacity: 0.6;
+	cursor: pointer;
+}
+.body{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 100px 125px 100px 125px;
+}
+.body h2{
+	color: #1b1b1b;
+	font-size: 30px;
+}
+.content{
+	width: 100%;
+    margin: auto;
+    line-height: 36px;
+    margin-bottom: 125px;
+    color: #818181;
+}
+.body img{
+	width: 100%;
+}
+.body table{
+	width: calc(100% - 20%);
+	margin: auto;
+	padding: 
+}
+.body td{
+	padding: 24px;
+	line-height: 36px;
+}
+.body h3{
+	color:#44958e;
+}
+.footer{
+	padding: 75px;
+	background-color: #1f1f1f;
+	line-height: 16px;
+	text-align: center;
+}
+.footer h5{
+	letter-spacing: 1px;
+	color: #c4c4c4;
+}
+.footer p{
+	color: #676767;
+}
