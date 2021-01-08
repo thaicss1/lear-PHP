@@ -1,0 +1,43 @@
+.pic{
+	height: 40px;
+}
+button{
+	position: relative;
+	top: 10px;
+}
+body table{
+	background-color: black;
+	color: #9b9b9b;
+	margin: auto;
+	padding: 40px;
+}
+body table tr td{
+	padding-left: 40px;
+}
+.left{
+	position: relative;
+	bottom: 28px;
+	padding-right: 200px;
+}
+.right{
+	position: relative;
+	bottom: 19px;
+}
+button{
+	background-color: #00bcd4;
+	width: 40px; 
+	height: 37px; 
+	font-size: 15px; 
+	color: white;
+	position: relative;
+    top: 17px;
+}
+.footer{
+	width: 20%;
+
+	background-color: #7986CB;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+}
