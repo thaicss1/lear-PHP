@@ -3,7 +3,7 @@
 	float: left;
     font-size: 40px;
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
     left: 20px;
 }
 .header{
@@ -15,7 +15,6 @@
 	background-size: cover;
 	margin: auto;
 	height: 600px;
-	object-fit: cover;
 	background-position: center;
 }
 .header ul{

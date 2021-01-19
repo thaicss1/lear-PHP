@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EX 1</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+<script type="text/javascript">
+	function Multipy(){
+		firstNumber=document.getElementById("firstNumber").value;
+		secondNumber=document.getElementById("secondNumber").value;
+		numberResult=firstNumber*secondNumber;
+		document.getElementById("result").innerHTML=numberResult;
+	}
+	function Divide(){
+		firstNumber=document.getElementById("firstNumber").value;
+		secondNumber=document.getElementById("secondNumber").value;
+		numberResult=firstNumber/secondNumber;
+		document.getElementById("result").innerHTML=numberResult;
+	}
+</script>
+<form>
+	<label>1st Number: </label>
+	<input name="fist-number" type="number" id="firstNumber"><br><br>
+
+	<label>2nd Number: </label>
+	<input name="second-number" type="number" id="secondNumber">
+</form><br>
+<button onclick="Multipy()">Multipy</button>
+<button onclick="Divide()">Divide</button>
+<p>The Result Is:</p>
+<div id="result"></div>
+</body>
+</html>
