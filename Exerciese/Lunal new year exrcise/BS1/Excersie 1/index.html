@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="boottrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ex1</title>
+	</head>
+	<body>
+		<div class="container">
+			<form action="" class="form" id="form">
+					<label>First Name</label>
+					<input class="col-12" type="text" name="fname" id="name">
+					<small id="error-name" >Trường hợp này bắt buộc phải nhập</small><br>
+					<label>Last Name</label>
+					<input class="col-12" type="text" name="fLastName" id="lastName">
+					<small id="error-lastName" >Trường hợp này bắt buộc phải nhập</small><br>
+					<input type="radio" name="gender" id="male">
+					<label> Male</label>
+					<input type="radio" name="gender" id="female">
+					<label>Female</label><br>
+					<input class="col-12" type="date"><br>
+					<input class="btn mt-3" type="button" onclick="get()" value="Submit">
+			</form>
+		</div> 
+	</body>
+</html>
